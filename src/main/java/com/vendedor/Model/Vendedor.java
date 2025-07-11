@@ -20,11 +20,15 @@ public class Vendedor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_vendedor")
     private Integer idVendedor;
+    
     @Column(name = "id_usuario")
     private Integer idUsuario;
+
     @Column(name = "nombre_completo")
     private String nombreCompleto;
+
     private String rut;
+
     @Column(name = "area_ventas")
     private String areaVentas;
 }
